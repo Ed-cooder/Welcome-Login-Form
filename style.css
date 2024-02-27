@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(30, 238, 238);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#login-form, #welcome-form {
+  background-color: teal;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+input[type="text"], input[type="password"], input[type="submit"], button {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 9px;
+  width: 100%;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+  background-color: gold;
+  color: black;
+  border: none;
+}
